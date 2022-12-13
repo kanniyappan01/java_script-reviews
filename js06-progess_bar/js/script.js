@@ -17,4 +17,4 @@ maxInput.addEventListener("keyup", function(){
 function changeWidth(){
 	progress.style.width = `${(finalValue / max) * 100}%`;
 	progress.innerText = `${parseInt((finalValue / max) * 100)}%`;
-}
+};

@@ -67,7 +67,7 @@ var order2 = 0;
 	
 */
 
-/* 
+/*
 var num = parseInt(prompt("enter a number"));
 var reverse = 0;
 
@@ -78,8 +78,8 @@ while(num != 0){
 	
 }
 console.log(reverse);
- */
- 
+*/
+/*
  var user = parseInt(prompt());
  var num = 0;
  var lastDigit;
@@ -97,3 +97,4 @@ console.log(reverse);
  else{
 	console.log(`this is not a amstrong number : ${user}`);
  }
+*/

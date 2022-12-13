@@ -47,3 +47,14 @@ body{
 	display:flex;
 	justify-content:space-around;
 }
+
+.circle-outer{
+	width:350px;
+	height:350px;
+	border-radius:50%;
+	background-color:#7777;
+}
+.circle-inner{
+    background-image: conic-gradient(red, yellow, green);	
+}
+	
