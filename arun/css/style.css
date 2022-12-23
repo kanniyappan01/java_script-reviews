@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+}
+.nav>li{
+    margin: 0 10px;
+}
+#inner{
+    display: none;
+}
+#best:hover #inner{
+    display: block;
+}

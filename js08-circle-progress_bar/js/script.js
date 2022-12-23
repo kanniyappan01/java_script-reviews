@@ -1,3 +1,4 @@
+
 let progressBar1 = document.querySelector("#circular-progress-1");
 let valueContainer1 = document.querySelector("#value-container-1");
 let progressBar2 = document.querySelector("#circular-progress-2");
@@ -88,4 +89,10 @@ input5.addEventListener("blur",()=>{
 			clearInterval(progress);	
 		}
 	},20);
+});
+
+let numbers=["apple","cat","dog"];
+
+numbers.forEach(function(val){
+	console.log(val)
 });

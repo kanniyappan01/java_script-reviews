@@ -1,3 +1,4 @@
+
 var word1 = prompt("enter first name");
 var word2 = prompt("enter first name");
 
@@ -23,6 +24,8 @@ for(let i=0;i<word2.length;i++){
 		value2+=word2[i];
 	}
 }
+console.log(value2)
+console.log(value1)
 
 
 if(count1>count2){
@@ -33,3 +36,5 @@ if(count1>count2){
 else{
 	console.log("word two has a largest vowels count")
 }
+
+
